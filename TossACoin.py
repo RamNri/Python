@@ -23,7 +23,7 @@ call = input(">" )
 print("You opted for %s"%(call))
 
 if call.lower() not in sides:
-    print("Your input was invalid, Go for toss again and enter either head or tail as input")
+    print("Your input was invalid, Toss again and enter either head or tail as input")
     sys.exit()
 
 time.sleep(5)
